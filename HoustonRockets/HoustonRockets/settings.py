@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '70--awg#vo56x-6y(e$+s497%1#3ektb64%emi!t#_p&1w*3r2'
+SECRET_KEY = 'secret-key'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
 
 INTERNAL_IPS = ['127.0.0.1']
 
-GOOGLE_MAP_API_KEY = 'AIzaSyD_SfvIFGzvPWG9t2JscNte3wYF39rEDVM'
+GOOGLE_MAP_API_KEY = 'google-map-api'
 
 
 
